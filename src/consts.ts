@@ -1,5 +1,5 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
+// Global site metadata
 
-export const SITE_TITLE = "Astro Blog";
-export const SITE_DESCRIPTION = "Welcome to my website!";
+export const SITE_TITLE = "Jaden Au | Audio Engineering";
+export const SITE_DESCRIPTION =
+  "Live sound engineer and Music Technology student specializing in FOH mixing, spatial audio, and event production.";
