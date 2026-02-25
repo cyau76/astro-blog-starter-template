@@ -1,20 +1,11 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import Layout from '../layouts/Layout.astro';
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-<Layout title="Home">
+<Layout
+  title="Jaden Au | Audio Engineering"
+  description="Live sound engineer and music production student specializing in FOH and spatial audio."
+>
 
 <section>
   <h1>Jaden Au</h1>
@@ -29,7 +20,3 @@ import Layout from '../layouts/Layout.astro';
 </section>
 
 </Layout>
-		</main>
-		<Footer />
-	</body>
-</html>
